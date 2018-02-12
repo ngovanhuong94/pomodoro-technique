@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding:0;
+    color: #2d3436;
+    background-color:#dfe6e9; 
+}
+.jumbotron{
+margin-top: 25px;
+background-color: #fab1a0;
+box-shadow:0 0 10px 10px #2d3436;
+}
+.row{
+    margin: 20px;
+    padding: 10px;
+}
+#display-time{
+ font-size: 6em;
+ color: floralwhite;
+}
+ .btn{
+     background-color: cadetblue;
+     color: crimson;
+     margin: 5px;
+ }
+ span{
+     margin: 2px;
+     color: white;
+     font-size: 18px;
+     font-weight: 900;
+ }
+ #btn-session, #btn-break{
+     width: 155px;
+     padding: 2px;
+     margin: 5px;
+ }

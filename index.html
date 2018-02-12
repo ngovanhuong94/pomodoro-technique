@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Clock</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container jumbotron text-center">
+        <div class="row row-one">
+            <header class="col-12">
+                <h1>Pomodoro Clock</h1>
+            </header>
+                <div class="col-6 div-control">
+                    <span  class ="btn" id ="sMin" > &#x25BC;</span>  <span  id = "session"></span>  <span  class ="btn" id ="sAdd" > &#x25B2;</span><br>
+                    <button class=" btn btn-default" id="btn-session">Session</button>
+                </div>
+                    <div class="col-6 div-control">
+                    <span class ="btn "  id ="bMin" > &#x25BC; </span> <span id = "break"></span>  <span class ="btn" id ="bAdd" > &#x25B2;</span><br>
+                    <button class=" btn btn-default" id="btn-break">Break</button>
+                </div>
+            </div>
+       
+        <div class="row row-two">
+              <div class="col-12">
+                    <h1 id="display-time" ></h1>
+                   
+                </div>
+               
+            </div>
+        
+   
+        <div class="row row-3">
+            <div class="col-12">
+                <div class="timer">
+                    <button class ="btn btn-primary" id = "btn-start" >Start &#9654;</button>
+                    <button class ="btn btn-danger" id="btn-stop">Stop 	&#9724; </button>
+                    <button class = "btn btn-info" id = "btn-reset">Reset&#10226;</button>
+                </div>
+            </div>
+        </div>
+        <footer class="col-12">
+            <p>SarfrazAnjum 2018</p>
+        </footer> 
+    </div>
+     
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
